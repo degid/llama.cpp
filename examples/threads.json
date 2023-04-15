@@ -1,0 +1,251 @@
+{ 
+   "threads": 1, 
+   "load_time": 142078.31, 
+  "prompt_eval_time": { 
+    "time":   8694.57, "tokens":     2, "time_per_token":  4347.28  }, 
+   "total_time": 728227.46
+},
+{ 
+   "threads": 1, 
+   "load_time":  9771.00, 
+  "prompt_eval_time": { 
+    "time":   6937.67, "tokens":     2, "time_per_token":  3468.84  }, 
+   "total_time": 588895.11
+},
+{ 
+   "threads": 1, 
+   "load_time":  9707.94, 
+  "prompt_eval_time": { 
+    "time":   6859.57, "tokens":     2, "time_per_token":  3429.79  }, 
+   "total_time": 590354.06
+},
+{ 
+   "threads": 2, 
+   "load_time":  6736.78, 
+  "prompt_eval_time": { 
+    "time":   3884.69, "tokens":     2, "time_per_token":  1942.35  }, 
+   "total_time": 373396.34
+},
+{ 
+   "threads": 2, 
+   "load_time":  6772.03, 
+  "prompt_eval_time": { 
+    "time":   3906.51, "tokens":     2, "time_per_token":  1953.25  }, 
+   "total_time": 378205.79
+},
+{ 
+   "threads": 2, 
+   "load_time":  6712.34, 
+  "prompt_eval_time": { "time":   3889.28, "tokens":     2, "time_per_token":  1944.64 }, 
+   "total_time": 374028.81
+},
+{ 
+   "threads": 3, 
+   "load_time":  6027.42, 
+  "prompt_eval_time": { 
+    "time":   3156.89, "tokens":     2, "time_per_token":  1578.44  }, 
+   "total_time": 360608.91
+},
+{ 
+   "threads": 3, 
+   "load_time":  6002.41, 
+  "prompt_eval_time": { 
+    "time":   3161.83, "tokens":     2, "time_per_token":  1580.92  }, 
+   "total_time": 361057.24
+},
+{ 
+   "threads": 3, 
+   "load_time":  6005.81, 
+  "prompt_eval_time": { 
+    "time":   3174.37, "tokens":     2, "time_per_token":  1587.18  }, 
+   "total_time": 360599.54
+},
+{ 
+   "threads": 4, 
+   "load_time":  5851.75, 
+  "prompt_eval_time": { 
+    "time":   3020.25, "tokens":     2, "time_per_token":  1510.12  }, 
+   "total_time": 365149.72
+},
+{ 
+   "threads": 4, 
+   "load_time":  5877.37, 
+  "prompt_eval_time": { 
+    "time":   3037.76, "tokens":     2, "time_per_token":  1518.88  }, 
+   "total_time": 365416.32
+},
+{ 
+   "threads": 4, 
+   "load_time":  5867.69, 
+  "prompt_eval_time": { 
+    "time":   3023.07, "tokens":     2, "time_per_token":  1511.53  }, 
+   "total_time": 365079.91
+},
+{ 
+   "threads": 5, 
+   "load_time":  5889.48, 
+  "prompt_eval_time": { 
+    "time":   3037.20, "tokens":     2, "time_per_token":  1518.60  }, 
+   "total_time": 375738.77
+},
+{ 
+   "threads": 5, 
+   "load_time":  5870.41, 
+  "prompt_eval_time": { 
+    "time":   3042.66, "tokens":     2, "time_per_token":  1521.33  }, 
+   "total_time": 375751.95
+},
+{ 
+   "threads": 5, 
+   "load_time":  5885.82, 
+  "prompt_eval_time": { 
+    "time":   3038.91, "tokens":     2, "time_per_token":  1519.46  }, 
+   "total_time": 375615.09
+},
+{ 
+   "threads": 6, 
+   "load_time":  5933.38, 
+  "prompt_eval_time": { 
+    "time":   3114.54, "tokens":     2, "time_per_token":  1557.27  }, 
+   "total_time": 385305.64
+},
+{ 
+   "threads": 6, 
+   "load_time":  5950.31, 
+  "prompt_eval_time": { 
+    "time":   3132.56, "tokens":     2, "time_per_token":  1566.28  }, 
+   "total_time": 385244.37
+},
+{ 
+   "threads": 6, 
+   "load_time":  5949.29, 
+  "prompt_eval_time": { 
+    "time":   3100.01, "tokens":     2, "time_per_token":  1550.01  }, 
+   "total_time": 385211.40
+},
+{ 
+   "threads": 7, 
+   "load_time":  6217.52, 
+  "prompt_eval_time": { 
+    "time":   3358.22, "tokens":     2, "time_per_token":  1679.11  }, 
+   "total_time": 394643.11
+},
+{ 
+   "threads": 7, 
+   "load_time":  6174.41, 
+  "prompt_eval_time": { 
+    "time":   3341.85, "tokens":     2, "time_per_token":  1670.92  }, 
+   "total_time": 393718.43
+},
+{ 
+   "threads": 7, 
+   "load_time":  6144.43, 
+  "prompt_eval_time": { 
+    "time":   3344.28, "tokens":     2, "time_per_token":  1672.14  }, 
+   "total_time": 393883.55
+},
+{ 
+   "threads": 8, 
+   "load_time":  6048.58, 
+  "prompt_eval_time": { 
+    "time":   3242.06, "tokens":     2, "time_per_token":  1621.03  }, 
+   "total_time": 394221.28
+},
+{ 
+   "threads": 8, 
+   "load_time":  6038.81, 
+  "prompt_eval_time": { 
+    "time":   3226.57, "tokens":     2, "time_per_token":  1613.28  }, 
+   "total_time": 394104.86
+},
+{ 
+   "threads": 8, 
+   "load_time":  6069.75, 
+  "prompt_eval_time": { 
+    "time":   3245.76, "tokens":     2, "time_per_token":  1622.88  }, 
+   "total_time": 394602.29
+},
+{ 
+   "threads": 9, 
+   "load_time":  6068.35, 
+  "prompt_eval_time": { 
+    "time":   3221.67, "tokens":     2, "time_per_token":  1610.83  }, 
+   "total_time": 399651.78
+},
+{ 
+   "threads": 9, 
+   "load_time":  6018.71, 
+  "prompt_eval_time": { 
+    "time":   3192.70, "tokens":     2, "time_per_token":  1596.35  }, 
+   "total_time": 399114.00
+},
+{ 
+   "threads": 9, 
+   "load_time":  6035.79, 
+  "prompt_eval_time": { 
+    "time":   3208.47, "tokens":     2, "time_per_token":  1604.24  }, 
+   "total_time": 398867.73
+},
+{ 
+   "threads": 10, 
+   "load_time":  6066.59, 
+  "prompt_eval_time": { 
+    "time":   3245.72, "tokens":     2, "time_per_token":  1622.86  }, 
+   "total_time": 403580.72
+},
+{ 
+   "threads": 10, 
+   "load_time":  6053.89, 
+  "prompt_eval_time": { 
+    "time":   3237.52, "tokens":     2, "time_per_token":  1618.76  }, 
+   "total_time": 403856.92
+},
+{ 
+   "threads": 10, 
+   "load_time":  6049.14, 
+  "prompt_eval_time": { 
+    "time":   3235.24, "tokens":     2, "time_per_token":  1617.62  }, 
+   "total_time": 403908.66
+},
+{ 
+   "threads": 11, 
+   "load_time":  6134.55, 
+  "prompt_eval_time": { 
+    "time":   3287.89, "tokens":     2, "time_per_token":  1643.94  }, 
+   "total_time": 407912.76
+},
+{ 
+   "threads": 11, 
+   "load_time":  6102.02, 
+  "prompt_eval_time": { 
+    "time":   3286.54, "tokens":     2, "time_per_token":  1643.27  }, 
+   "total_time": 407686.02
+},
+{ 
+   "threads": 11, 
+   "load_time":  6133.78, 
+  "prompt_eval_time": { 
+    "time":   3305.94, "tokens":     2, "time_per_token":  1652.97  }, 
+   "total_time": 407008.10
+},
+{ 
+   "threads": 12, 
+   "load_time":  6266.06, 
+  "prompt_eval_time": { 
+    "time":   3442.69, "tokens":     2, "time_per_token":  1721.35  }, 
+   "total_time": 415875.34
+},
+{ 
+   "threads": 12, 
+   "load_time":  6254.14, 
+  "prompt_eval_time": { 
+    "time":   3417.13, "tokens":     2, "time_per_token":  1708.57  }, 
+   "total_time": 416050.20
+},
+{ 
+   "threads": 12, 
+   "load_time":  6218.37, 
+  "prompt_eval_time": { 
+    "time":   3386.93, "tokens":     2, "time_per_token":  1693.47  }, 
+   "total_time": 415945.11
+}

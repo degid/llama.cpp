@@ -170,6 +170,7 @@ extern "C" {
 
     // Performance information
     LLAMA_API void llama_print_timings(struct llama_context * ctx);
+    LLAMA_API void llama_save_timings(struct llama_context * ctx, int n_threads);
     LLAMA_API void llama_reset_timings(struct llama_context * ctx);
 
     // Print system information

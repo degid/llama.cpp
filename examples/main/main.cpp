@@ -467,6 +467,7 @@ int main(int argc, char ** argv) {
 #endif
 
     llama_print_timings(ctx);
+    llama_save_timings(ctx, params.n_threads);
     llama_free(ctx);
 
     set_console_color(con_st, CONSOLE_COLOR_DEFAULT);

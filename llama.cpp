@@ -1903,6 +1903,26 @@ void llama_print_timings(struct llama_context * ctx) {
     fprintf(stderr, "%s:       total time = %8.2f ms\n", __func__, (t_end_us - ctx->t_start_us)/1000.0);
 }
 
+void llama_save_timings(struct llama_context * ctx, int n_threads) {
+    const int64_t t_end_us = ggml_time_us();
+    const int32_t n_p_eval = std::max(1, ctx->n_p_eval);
+
+    FILE * fp = fopen("threads.json", "a");
+
+    fprintf(fp, " ,{\n");
+    fprintf(fp, "    \"threads\": %d, \n", n_threads);
+    fprintf(fp, "    \"load_time\": %8.2f, \n", ctx->t_load_us / 1000.0);
+    fprintf(fp, "    \"total_time\": %8.2f, \n", (t_end_us - ctx->t_start_us)/1000.0);
+
+    fprintf(fp, "    \"prompt_eval_time\": { \n");
+    fprintf(fp, "      \"time\":  %8.2f, \"tokens\": %d, \"time_per_token\": %8.2f",  1e-3 * ctx->t_p_eval_us, n_p_eval, 1e-3 * ctx->t_p_eval_us / n_p_eval);
+    fprintf(fp, "      \"tokens\": %d",  n_p_eval);
+    fprintf(fp, "      \"time_per_token\": %8.2f",  ctx->t_p_eval_us / n_p_eval);
+    fprintf(fp, "    }\n");
+    fprintf(fp, "  }");
+    fclose(fp);
+}
+
 void llama_reset_timings(struct llama_context * ctx) {
     ctx->t_start_us = ggml_time_us();
     ctx->t_sample_us = ctx->n_sample = 0;
